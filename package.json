@@ -1,0 +1,13 @@
+{
+  "name": "photoil",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Photoil: The Photographic Atelier — private, local-only painterly photo editing",
+  "scripts": {
+    "dev": "python3 -m http.server 5173",
+    "test": "node --test",
+    "check": "node --check src/main.js && node --check src/worker.js && node --check src/engine.js && node --check src/presets.js && npm test"
+  },
+  "engines": {"node": ">=20"}
+}
